@@ -50,7 +50,7 @@ export function Products() {
                     <div key={product.id} className="flex flex-col p-4 rounded-md bg-gray-100 shadow-md ring-1 ring-gray-200 transition-transform transform hover:-translate-y-2">                  
                         <img
                             src={product.data.imagem.url}
-                            alt=""
+                            alt={product.data.nome[0].text}
                             width={200}
                             height={200}
                         />

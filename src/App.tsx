@@ -10,19 +10,19 @@ function App() {
       <Header />
       <ul className="mb-10 flex items-start gap-4 justify-start">
         <li>
-          <img src="/ADDYY.svg" alt="" className="w-9 sm:w-14 rounded" />
+          <img src="../public/ADDYY.svg" alt="Addidas" className="w-9 sm:w-14 rounded" />
         </li>
         <li>
-          <img src="/puma-logo-cover-958x575.png" alt="" className="w-9 sm:w-14 rounded" />
+          <img src="../public/PMA.png" alt="Puma" className="w-9 sm:w-14 rounded" />
         </li>
         <li>
-          <img src="logo-me.jpg" alt="" className="w-[38.2px] sm:w-[59.5px] rounded" />
+          <img src="../public/MONTEIES.jpg" alt="Monteiro Esportes" className="w-[38.2px] sm:w-[59.5px] rounded" />
         </li>
         <li>
-          <img src="/NKE.svg" alt="" className="w-9 sm:w-14 rounded" />
+          <img src="../public/NKE.svg" alt="Nike" className="w-9 sm:w-14 rounded" />
         </li>
         <li>
-          <img src="/D_NQ_NP_803528-MLB70920862224_082023-O.webp" alt="" className="w-9 sm:w-14 rounded" />
+          <img src="../public/MZUN.webp" alt="Mizuno" className="w-9 sm:w-14 rounded" />
         </li>
       </ul>
 
