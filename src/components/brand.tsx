@@ -59,9 +59,9 @@ export function Brand() {
                     </ul>
                 </div>
                 <div className="flex">
-                    <img src="../public/BRAND_36766.jpeg" alt="Detalhe da luva de goleiro com a logo da Monteiro Esportes estampada." className="w-72 border-2 border-zinc-50 rounded mr-1 transition-transform transform hover:-translate-y-2" />
-                    <img src="../public/BRAND_44246.jpeg" alt="Jogador de futebol com uniforme segurando uma bola." className="w-72 border-2 border-zinc-50 rounded mr-1 hidden lg:block transition-transform transform hover:-translate-y-2" />
-                    <img src="../public/BRAND_442465.jpeg" alt="Atleta de futebol em traje verde e preto aponta para cima." className="w-72 border-2 border-zinc-50 rounded hidden xl:block transition-transform transform hover:-translate-y-2" />
+                    <img src="/public/BRAND_36766.jpeg" alt="Detalhe da luva de goleiro com a logo da Monteiro Esportes estampada." className="w-72 border-2 border-zinc-50 rounded mr-1 transition-transform transform hover:-translate-y-2" />
+                    <img src="/public/BRAND_44246.jpeg" alt="Jogador de futebol com uniforme segurando uma bola." className="w-72 border-2 border-zinc-50 rounded mr-1 hidden lg:block transition-transform transform hover:-translate-y-2" />
+                    <img src="/public/BRAND_442465.jpeg" alt="Atleta de futebol em traje verde e preto aponta para cima." className="w-72 border-2 border-zinc-50 rounded hidden xl:block transition-transform transform hover:-translate-y-2" />
                 </div>
             </div>
             <br />

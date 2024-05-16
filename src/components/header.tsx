@@ -26,7 +26,7 @@ export function Header() {
                 </ul>
             </div>
             <div className="mb-8 flex flex-col justify-center sm:flex-row sm:items-center">
-                <img src="../public/HERO01.png" alt="Chuteira adidas Predator XR1 X FG, ideal para futebol de campo." className="rounded-xl ml-4 w-11/12 mt-20 lg:m-0" />
+                <img src="/public/HERO01.png" alt="Chuteira adidas Predator XR1 X FG, ideal para futebol de campo." className="rounded-xl ml-4 w-11/12 mt-20 lg:m-0" />
                 <ul className="sm:flex justify-center m-4 sm:mt-20 lg:m-0 sm:flex-col hidden">
                     <li>
                         <a href="https://api.whatsapp.com/send/?phone=82988860744&text&type=phone_number&app_absent=0" target="_blank" className="transition duration-200 ease-in-out hover:text-purple-600"><InstagramLogo size={32} weight="fill" /></a>
