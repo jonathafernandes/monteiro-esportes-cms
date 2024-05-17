@@ -46,7 +46,7 @@ export function Products() {
             <h3 className="text-2xl mt-24 font-bold sm:text-start text-center sm:ml-10">Produtos</h3>
             <Minus size={32} className="sm:ml-10 my-0 mx-auto" />
             <div className="flex flex-wrap mt-12 mb-32 sm:ml-10 gap-4 font-mono sm:justify-start justify-center">
-                {products.length === 0 && <h2 className='text-xl'>Novos produtos em breve...</h2>}
+                {products.length === 0 && <h2 className='text-xl'>Carregando produtos...</h2>}
                 {products.map(product => (
                     <div key={product.id} className="w-[80vw] sm:w-56 flex flex-col p-4 rounded-md bg-gray-100 shadow-md ring-1 ring-gray-200 transition-transform transform hover:-translate-y-2">
                         {product.data.imagem.url === undefined && <h2 className='text-xs mb-2'>Imagem não disponível</h2>}
