@@ -1,19 +1,20 @@
-import { CheckCircle, Copyright, PlusCircle } from "@phosphor-icons/react/dist/ssr";
+import { Minus } from "@phosphor-icons/react";
+import { CheckCircle, PlusCircle } from "@phosphor-icons/react/dist/ssr";
 
 export function Brand() {
     return (
         <>
-            <div id="brand" className="bg-zinc-950 text-zinc-50 w-full flex gap-4 sm:gap-0 flex-col sm:items-start sm:w-auto sm:flex-row py-8 px-16 sm:px-8 rounded-none sm:rounded">
+            <div id="brand" className="bg-zinc-950 text-zinc-50 w-full flex items-center gap-4 sm:gap-0 flex-col sm:items-start sm:w-auto sm:flex-row py-8 px-16 sm:px-8 rounded-none sm:rounded">
                 <div>
                     <h3 className="mb-5 text-2xl font-bold">Destaque</h3>
-                    <div className="flex items-center gap-1 font-semibold text-transform: uppercase mb-2">
+                    <div className="flex flex-col gap-1 font-semibold text-transform: uppercase mb-2">
                         <h5>Marca própria</h5>
-                        <Copyright size={18} />
+                        <Minus size={32} />
                     </div>
-                    <p className="text-xs max-w-sm">
+                    <p className="text-sm max-w-sm">
                         As LUVAS ME, nosso novo lançamento, vem para lhe dar conforto nas suas mãos, segurança nas suas defesas e mais durabilidade!
                     </p>
-                    <ul className="text-xs mt-8 font-normal">
+                    <ul className="text-sm mt-2 sm:mt-8 font-normal">
                         <li className="flex gap-1 items-center ">
                             <CheckCircle size={20} weight="fill" />
                             <span>
