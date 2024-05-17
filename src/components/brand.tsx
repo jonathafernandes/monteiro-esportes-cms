@@ -10,10 +10,10 @@ export function Brand() {
                         <h5>Marca própria</h5>
                         <Copyright size={18} />
                     </div>
-                    <p className="text-xs font-mono max-w-sm">
-                        🗣️ As LUVAS ME, nosso novo lançamento, vem para lhe dar conforto nas suas mãos, segurança nas suas defesas e mais durabilidade!
+                    <p className="text-xs max-w-sm">
+                        As LUVAS ME, nosso novo lançamento, vem para lhe dar conforto nas suas mãos, segurança nas suas defesas e mais durabilidade!
                     </p>
-                    <ul className="text-xs mt-4 font-normal">
+                    <ul className="text-xs mt-8 font-normal">
                         <li className="flex gap-1 items-center ">
                             <CheckCircle size={20} weight="fill" />
                             <span>
@@ -67,7 +67,7 @@ export function Brand() {
             <br />
             <br />
             <p className="font-mono mx-4">
-                Trabalhamos com o melhor látex do mercado! Venha conferir e surpreenda-se! 🧤🥅🔥
+                Trabalhamos com o melhor látex do mercado. Venha conferir e surpreenda-se! 🧤🥅🔥
             </p>
             <br />
         </>
