@@ -50,23 +50,25 @@ export function Products() {
                 {products.length === 0 && <h2 className='text-xl'>Carregando produtos...</h2>}
                 {products.map(product => (
                     <Dialog.Root key={product.id}>
-                        <Dialog.Trigger className="w-[80vw] sm:w-56 flex flex-col p-4 rounded-md bg-gray-100 shadow-md ring-1 ring-gray-200 transition-transform transform hover:-translate-y-2">
-                            {product.data.imagem.url === undefined && <h2 className='text-xs mb-2'>Imagem não disponível</h2>}
-                            <img
-                                src={product.data.imagem.url}
-                                alt={product.data.nome[0].text}
-                                className='w-full h-auto object-cover'
-                            />
-                            <h4 className="text-sm mt-2 text-transform: uppercase">{product.data.nome[0].text}</h4>
-                            <p className="text-lg font-bold">R$ {product.data.preco[0].text}</p>
-                            <p className="text-xs">Até 8x sem juros</p>
+                        <div className='flex flex-col'>
+                            <Dialog.Trigger className="w-[80vw] sm:w-56 flex flex-col p-4 rounded-md bg-gray-100 shadow-md ring-1 ring-gray-200 transition-transform transform hover:-translate-y-2">
+                                {product.data.imagem.url === undefined && <h2 className='text-xs mb-2'>Imagem não disponível</h2>}
+                                <img
+                                    src={product.data.imagem.url}
+                                    alt={product.data.nome[0].text}
+                                    className='w-full h-auto object-cover cursor-zoom-in'
+                                />
+                                <h4 className="text-sm mt-2 text-transform: uppercase text-start">{product.data.nome[0].text}</h4>
+                                <p className="text-lg font-bold">R$ {product.data.preco[0].text}</p>
+                                <p className="text-xs">Até 8x sem juros</p>
+                            </Dialog.Trigger>
                             <button className="bg-[#25d366] border border-[#128c7e] mt-2 p-1 transition duration-300 hover:bg-[#1ebd59] text-xs">
                                 <a href="https://api.whatsapp.com/send/?phone=82988860744&text&type=phone_number&app_absent=0" target="_blank" className="flex items-center gap-1 justify-center">
                                     <span>Compre pelo WhatsApp</span>
                                     <WhatsappLogo size={18} weight="fill" />
                                 </a>
                             </button>
-                        </Dialog.Trigger>
+                        </div>
 
                         <Dialog.Portal>
                             <Dialog.Overlay className="fixed inset-0 bg-black/50" />
