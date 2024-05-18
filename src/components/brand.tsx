@@ -4,7 +4,7 @@ import { CheckCircle, PlusCircle } from "@phosphor-icons/react/dist/ssr";
 export function Brand() {
     return (
         <>
-            <div id="brand" className="bg-zinc-950 text-zinc-50 w-full flex items-center gap-4 sm:gap-0 flex-col sm:items-start sm:w-auto sm:flex-row py-8 px-16 sm:px-8 rounded-none">
+            <div id="brand" className="bg-zinc-950 sm:rounded text-zinc-50 w-full flex items-center gap-4 sm:gap-0 flex-col sm:items-start sm:w-auto sm:flex-row rounded-none p-8">
                 <div>
                     <h3 className="mb-5 text-2xl font-bold">Destaque</h3>
                     <div className="flex flex-col gap-1 font-semibold text-transform: uppercase mb-2">
@@ -60,9 +60,9 @@ export function Brand() {
                     </ul>
                 </div>
                 <div className="flex">
-                    <img src="BRAND_44246.jpeg" alt="Jogador de futebol com uniforme segurando uma bola." className="h-[500px] w-3/5 border-2 border-zinc-50 rounded mr-1 hidden lg:block transition-transform transform hover:-translate-y-2" />
-                    <img src="BRAND_36766.jpeg" alt="Jogador de futebol em uniforme vermelho e azul chuta uma bola de futebol." className="h-[500px] w-3/5 border-2 border-zinc-50 rounded mr-1 transition-transform transform hover:-translate-y-2" />
-                    <img src="BRAND_442465.jpeg" alt="Atleta de futebol ajoelhado no chão fazendo gesto de comemoração." className="h-[500px] w-3/5 border-2 border-zinc-50 rounded hidden xl:block transition-transform transform hover:-translate-y-2" />
+                    <img src="BRAND_44246.jpeg" alt="Jogador de futebol com uniforme segurando uma bola." className="h-[500px] max-w-max border-2 border-zinc-50 rounded mr-1 transition-transform transform hover:-translate-y-2" />
+                    <img src="BRAND_36766.jpeg" alt="Jogador de futebol em uniforme vermelho e azul chuta uma bola de futebol." className="h-[500px] max-w-max border-2 border-zinc-50 rounded hidden lg:block mr-1 transition-transform transform hover:-translate-y-2" />
+                    <img src="BRAND_442465.jpeg" alt="Atleta de futebol ajoelhado no chão fazendo gesto de comemoração." className="h-[500px] max-w-max border-2 border-zinc-50 rounded hidden xl:block transition-transform transform hover:-translate-y-2" />
                 </div>
             </div>
             <br />

@@ -66,9 +66,9 @@ export function Products() {
                 {loading && <p>Carregando produtos...</p>}
                 {searchTerm && filteredProducts.length === 0 && (
                     <div className="w-full text-center mb-4">
-                        <div className='flex gap-1 items-center'>
+                        <div className='flex flex-col xl:flex-row gap-1 items-center'>
                             <SealWarning size={20} weight="regular" />
-                            <h2 className='text-lg'>Nenhum produto encontrado com esse nome. Tente com outro termo ou veja outros:</h2>
+                            <h2 className='text-lg'>Nenhum produto encontrado com esse nome. Tente com outro termo ou veja outros produtos abaixo:</h2>
                         </div>
                     </div>
                 )}
