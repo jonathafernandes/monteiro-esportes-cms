@@ -13,19 +13,19 @@ function App() {
       
       <ul className="m-20 flex items-start gap-4 justify-start">
         <li>
-          <img src="ADDYY.svg" alt="Addidas" className="w-20 rounded" />
+          <img src="ADDYY.svg" alt="Addidas" className="w-12 sm:w-20 max-w-fit rounded" />
         </li>
         <li>
-          <img src="PMA.png" alt="Puma" className="w-20 rounded" />
+          <img src="PMA.png" alt="Puma" className="w-12 sm:w-20 max-w-fit rounded" />
         </li>
         <li>
-          <img src="MONTEIES.jpg" alt="Monteiro Esportes" className="w-[84.9px] rounded" />
+          <img src="MONTEIES.jpg" alt="Monteiro Esportes" className="w-[51.5px] sm:w-[84.9px] max-w-fit rounded" />
         </li>
         <li>
-          <img src="NKE.svg" alt="Nike" className="w-20 rounded" />
+          <img src="NKE.svg" alt="Nike" className="w-12 sm:w-20 max-w-fit rounded" />
         </li>
         <li>
-          <img src="MZUN.webp" alt="Mizuno" className="w-20 rounded" />
+          <img src="MZUN.webp" alt="Mizuno" className="w-12 sm:w-20 max-w-fit rounded" />
         </li>
       </ul>
 
