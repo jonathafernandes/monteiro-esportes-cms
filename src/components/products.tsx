@@ -53,7 +53,7 @@ export function Products() {
 
     return (
         <div id="products" className="w-full flex flex-col">
-            <h3 className="text-2xl mt-24 font-bold sm:text-start text-center sm:ml-10">Produtos</h3>
+            <h3 className="text-2xl font-bold sm:text-start text-center sm:ml-10">Produtos</h3>
             <Minus size={32} className="sm:ml-10 my-0 mx-auto" />
             <div className="flex flex-wrap mt-12 mb-32 sm:ml-10 gap-4 font-mono sm:justify-start justify-center">
                 <input

@@ -4,7 +4,7 @@ import { CheckCircle, PlusCircle } from "@phosphor-icons/react/dist/ssr";
 export function Brand() {
     return (
         <>
-            <div id="brand" className="bg-zinc-950 sm:rounded text-zinc-50 w-full flex items-center gap-4 sm:gap-0 flex-col sm:items-start sm:w-auto sm:flex-row rounded-none p-8">
+            <div id="brand" className="bg-zinc-800 sm:rounded text-zinc-50 w-full flex items-center gap-4 sm:gap-0 flex-col sm:items-start sm:w-auto sm:flex-row rounded-none p-8">
                 <div>
                     <h3 className="mb-5 text-2xl font-bold">Destaque</h3>
                     <div className="flex flex-col gap-1 font-semibold text-transform: uppercase mb-2">
