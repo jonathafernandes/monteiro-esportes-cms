@@ -9,7 +9,8 @@ interface Product {
         nome: [{ text: string }];
         preco: [{ text: string }];
         imagem: { url: string };
-        tamanho: string;
+        tamanho_1: string;
+        tamanho_2: string;
     };
 }
 
@@ -37,7 +38,8 @@ export function Products() {
                     nome: product.data.nome,
                     preco: product.data.preco,
                     imagem: product.data.imagem,
-                    tamanho: product.data.tamanho,
+                    tamanho_1: product.data.tamanho_1,
+                    tamanho_2: product.data.tamanho_2,
                 },
             }));
             setProducts(transformedProducts);
@@ -90,7 +92,8 @@ export function Products() {
                             <h4 className="text-sm mt-2 text-transform: uppercase text-start">{product.data.nome[0].text}</h4>
                             <div className='flex items-center gap-1 text-zinc-800 text-xs text-transform: uppercase'>
                                 <span>Tamanho</span>
-                                <span className='bg-zinc-300 rounded-full p-1'>{product.data.tamanho}</span>
+                                <span className='bg-zinc-300 rounded-full p-1'>{product.data.tamanho_1}</span>
+                                {product.data.tamanho_2 === null ? '' : <span className='bg-zinc-300 rounded-full p-1'>{product.data.tamanho_2}</span>}
                                 </div>
                             <p className="text-lg font-bold">R$ {product.data.preco[0].text}</p>
                             <p className="text-xs">Até 8x sem juros</p>
