@@ -11,7 +11,7 @@ Actualmente, estão disponíveis dois plugins oficiais:
 
 ### monteiro-esportes-cms
 
-<img src="preview.png" />
+<img src="./public/preview.png" width="80%" />
 
 - TailwindCSS
 - Prismic
