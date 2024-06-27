@@ -11,21 +11,21 @@ function App() {
 
       <MouseScroll size={32} color="#212121"/>
       
-      <ul className="m-20 flex items-start gap-4 justify-start">
+      <ul className="mx-0 my-20 sm:m-20 flex gap-4">
         <li>
-          <img src="ADDYY.svg" alt="Addidas" className="w-12 sm:w-20 max-w-fit rounded" />
+          <img src="MONTEIES.jpg" alt="Monteiro Esportes" className="w-13 h-11 sm:w-15 sm:h-20 rounded" />
         </li>
         <li>
-          <img src="PMA.png" alt="Puma" className="w-12 sm:w-20 max-w-fit rounded" />
+          <img src="ADDYY.jpg" alt="Addidas" className="w-13 h-11 sm:w-15 sm:h-20 rounded" />
         </li>
         <li>
-          <img src="MONTEIES.jpg" alt="Monteiro Esportes" className="w-[51.5px] sm:w-[84.9px] max-w-fit rounded" />
+          <img src="PMA.jpg" alt="Puma" className="w-13 h-11 sm:w-15 sm:h-20 rounded" />
         </li>
         <li>
-          <img src="NKE.svg" alt="Nike" className="w-12 sm:w-20 max-w-fit rounded" />
+          <img src="NKE.jpg" alt="Nike" className="w-13 h-11 sm:w-15 sm:h-20 rounded" />
         </li>
         <li>
-          <img src="MZUN.webp" alt="Mizuno" className="w-12 sm:w-20 max-w-fit rounded" />
+          <img src="MZUN.webp" alt="Mizuno" className="w-13 h-11 sm:w-15 sm:h-20 rounded" />
         </li>
       </ul>
 

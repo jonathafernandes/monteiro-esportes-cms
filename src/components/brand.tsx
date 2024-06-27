@@ -67,7 +67,7 @@ export function Brand() {
             </div>
             <br />
             <br />
-            <p className="font-mono mx-4">
+            <p className="font-mono m-4">
                 Trabalhamos com o melhor látex do mercado. Venha conferir e surpreenda-se! 🧤🥅🔥
             </p>
             <br />
