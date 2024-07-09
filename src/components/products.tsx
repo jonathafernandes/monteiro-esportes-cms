@@ -94,9 +94,9 @@ export function Products() {
                                 <span>Tamanho</span>
                                 <span className='bg-zinc-300 rounded-full p-1'>{product.data.tamanho_1}</span>
                                 {product.data.tamanho_2 === null ? '' : <span className='bg-zinc-300 rounded-full p-1'>{product.data.tamanho_2}</span>}
-                                </div>
-                            <p className="text-lg font-bold">R$ {product.data.preco[0].text}</p>
-                            <p className="text-xs">Até 8x sem juros</p>
+                            </div>
+                            <p className="text-start text-lg font-bold">R$ {product.data.preco[0].text}</p>
+                            <p className="text-start text-xs">Até 8x sem juros</p>
                         </Dialog.Trigger>
                         <button className="bg-[#25d366] border border-[#128c7e] mt-2 p-1 transition duration-300 hover:bg-[#1ebd59] text-xs">
                             <a href="https://api.whatsapp.com/send/?phone=82988860744&text&type=phone_number&app_absent=0" target="_blank" className="flex items-center gap-1 justify-center">
